@@ -9,7 +9,7 @@ CHAT_ID = "-1004367781281"
 # Valores possíveis
 valores = [
     "🔴 ROJO",
-    "🔵 AZUL"
+    "⚫️ PRETO"
 ]
 
 # Texto fixo
@@ -19,7 +19,7 @@ mensagem_fixa = """
 🎯 Acción: COMPRAR AHORA
 
 🔗 Enlace del juego:
-[Inserta el enlace aquí]
+[Betano]
 
 🔄 Estrategia de Recuperación (Gale):
 Si esta entrada no se da a la primera, mantén la calma.
@@ -56,5 +56,5 @@ while True:
     except Exception as erro:
         print("Erro:", erro)
 
-    # 240 segundos = 4 minutos
-    time.sleep(240)
+    # 120 segundos = 2 minutos
+    time.sleep(120)
