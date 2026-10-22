@@ -56,5 +56,5 @@ while True:
     except Exception as erro:
         print("Erro:", erro)
 
-    # 86400 segundos = 24 minutos
+    # 86400 segundos = 1440 minutos
     time.sleep(86400)
