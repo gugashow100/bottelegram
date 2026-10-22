@@ -9,7 +9,7 @@ CHAT_ID = "-1004367781281"
 # Valores possíveis
 valores = [
     "🔴 ROJO",
-    "⚫️ PRETO"
+    "⚫ PRETO"
 ]
 
 # Texto fixo
@@ -56,5 +56,5 @@ while True:
     except Exception as erro:
         print("Erro:", erro)
 
-    # 120 segundos = 2 minutos
-    time.sleep(120)
+    # 86400 segundos = 24 minutos
+    time.sleep(86400)
