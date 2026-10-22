@@ -4,7 +4,7 @@ import time
 
 # DADOS DO BOT
 TOKEN = "8844763739:AAFGhZTGCGKCBfdKM4lWXBxh1G_zQgxGy78"
-CHAT_ID = "-1004367781281"
+CHAT_ID = "-1004413663874"
 
 # Valores possíveis
 valores = [
